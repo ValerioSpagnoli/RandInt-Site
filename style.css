@@ -21,8 +21,6 @@
     grid-template-columns: 100vw;
     grid-template-rows: 100px 10px 80px 1px 80px 30px 100px 10px 150px;
     grid-gap: 15px;
-    grid-template-rows: 80px 40px 80px 80px 80px;
-    grid-gap: 10px;
     margin: 20px;
 }
 
@@ -105,6 +103,7 @@
     align-items: center;
     text-align: center;
     border-style: solid;
+    border-width: 4px;
     border-color: rgb(255, 127, 80);
     border-bottom-left-radius: 25px;
     border-top-right-radius: 25px;
@@ -125,4 +124,3 @@
     font-family: 'Cabin Sketch', cursive;
     color: coral;
 }
-
