@@ -19,16 +19,22 @@
     <div class="gridContainer">
 
         <div class="gridItem">
-            <div class="titolo"> Genera un numero random! </div>
+            <div class="titolo"> RANDINT </div>
         </div>
 
         <div class="gridItem"></div>
 
         <div class="gridItem">
             <span class="inputSpan">
-                Da:&nbsp<input class="input" type="text" name="inputDa" id="inputDa" value="0" size="6">
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                A:&nbsp<input class="input" type="text" name="inputA" id="inputA" value="100" size="6">
+                Da:&nbsp&nbsp<input class="input" type="text" name="inputDa" id="inputDa" value="0" size="6">
+            </span>
+        </div>
+
+        <div class="gridItem"></div>
+
+        <div class="gridItem">
+            <span class="inputSpan">
+                A:&nbsp&nbsp&nbsp&nbsp<input class="input" type="text" name="inputA" id="inputA" value="100" size="6">
             </span>
         </div>
 
@@ -43,7 +49,7 @@
 
         <div class="gridItem">
             <div class="bottone">
-                <button onclick="random()">
+                <!-- <button onclick="random()">
                     <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0 0h24v24H0z" fill="none"></path>
                         <path
@@ -51,6 +57,9 @@
                             fill="currentColor"></path>
                     </svg>
                     <span>Launch</span>
+                </button> -->
+                <button class="btn" onclick="random()">
+                    <span class="button_top">Launch</span>
                 </button>
             </div>
         </div>
