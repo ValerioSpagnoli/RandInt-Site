@@ -21,11 +21,11 @@ function random() {
         alert("Inserire un valore valido nel campo 'A'!");
         return false;
     }
-    min = document.getElementById("inputDa").value;
-    max = document.getElementById("inputA").value;
+    min = parseInt(document.getElementById("inputDa").value); 
+    max = parseInt(document.getElementById("inputA").value);
     r = max-min+1;
 
-    num = Math.round(Math.random() * r + min);
+    num = Math.round((Math.random() * r) + min);
     //document.getElementById("numero").innerHTML = num;
     document.getElementById("numero").value = num;
     console.log(num);
